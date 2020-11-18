@@ -1,0 +1,160 @@
+img {
+    margin-left: 20px;
+    margin-top: 20px; 
+    height: 350px;
+} 
+
+button {
+    margin-left: 20px;
+    margin-top: 15px; 
+    height: 30px;  
+}
+
+footer {
+    margin-top: 20px;
+    background-color: cadetblue;
+    height: 60px;
+    width: 1920px;
+    position: fixed; 
+    left: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+p {
+    margin-left: 20px;
+}
+
+h1 {
+    margin-top: 115px;
+    font-size: 45px;
+}
+
+header {
+    background-color: cadetblue;
+    height: 60px;
+    width: 1920px;
+    position: fixed; 
+    left: 0;
+    top: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    font-size: 25px;
+}
+
+@media (min-device-width : 320px) and (max-device-width : 425px) {
+    
+    img {
+        margin-left: 20px;
+        margin-top: 20px; 
+        height: 920px;
+    } 
+    
+    button {
+        margin-left: 20px;
+        margin-top: 15px; 
+        height: 30px;  
+    }
+    
+    footer {
+        margin-top: 20px;
+        background-color: cadetblue;
+        height: 60px;
+        width: 1920px;
+        position: fixed; 
+        left: 0;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 40px;
+    }
+    
+    p {
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    
+    h1 {
+        margin-top: 115px;
+        font-size: 60px;
+    }
+    
+    header {
+        background-color: cadetblue;
+        height: 60px;
+        width: 1920px;
+        position: fixed; 
+        left: 0;
+        top: 0;
+    }
+    
+    li {
+        list-style-type: none;
+        display: inline;
+        padding: 15px;
+        font-size: 35px;
+    }
+}
+
+@media (min-device-width : 768px) {
+
+    img {
+        margin-left: 20px;
+        margin-top: 20px; 
+        height: 245px;
+    } 
+
+    button {
+        margin-left: 20px;
+        margin-top: 15px; 
+        height: 30px;  
+    }
+
+    footer {
+        margin-top: 20px;
+        background-color: cadetblue;
+        height: 60px;
+        width: 1920px;
+        position: fixed; 
+        left: 0;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    p {
+        margin-left: 20px;
+    }
+
+    h1 {
+        margin-top: 115px;
+    }
+
+    header {
+        background-color: cadetblue;
+        height: 60px;
+        width: 1920px;
+        position: fixed; 
+        left: 0;
+        top: 0;
+    }
+
+    li {
+        list-style-type: none;
+        display: inline;
+        padding: 15px;
+    }
+
+}
